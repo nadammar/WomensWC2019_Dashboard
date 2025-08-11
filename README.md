@@ -1,6 +1,6 @@
 # 📊 Women’s World Cup 2019 – Dashboard & xG Prediction Model
 
----
+
 
 ## 🎯 Project Description
 
@@ -11,7 +11,6 @@ The goal is to give **clear, accessible insights** into team and player performa
 
 📊 **Data Source:** [StatsBomb Open Data](https://statsbomb.com/)
 
----
 
 ## 🛠 Features
 
@@ -19,19 +18,19 @@ The goal is to give **clear, accessible insights** into team and player performa
 
 * 🏆 **Home**
 * 🏆 **Competition Overview** – General tournament stats.
-  ![Competition Overview](images/comp_dashboard.jpg)
+  <img src="screenshots/competition.PNG" alt="competition" width="700"/>
 * 📋 **Match-Level Analysis** – Key stats from each match.
-  ![Match Dashboard](images/match_dashboard.jpg)
+  <img src="screenshots/match.PNG" alt="competition" width="700"/>
 * 👤 **Player Performance** – Passing, shooting, possession metrics.
-  ![Player Dashboard](images/player_dashboard.jpg)
+  <img src="screenshots/player.PNG" alt="competition" width="700"/>
 **🤖 xG Prediction Model**
 
 * Gradient Boosting algorithm trained on historical match events.
 * Predicts **goal probability** for each shot attempt.
 
-  ![Player Dashboard](images/player_dashboard.jpg)
+  <img src="screenshots/prediction.PNG" alt="competition" width="700"/>
 
----
+
 
 ## 📚 Libraries Used
 
@@ -56,14 +55,14 @@ cd WomensWC2019-Dashboard
 streamlit run main_app.py --server.port 8501
 ```
 
----
+
 
 ## 🎥 Video Demo
 
 📌 Full dashboard walkthrough available on **LinkedIn** → \[Video Link]
 
----
+
 
 ## 👨‍💻 Author
 
-Developed by **\[Your Name]** – passionate football player & data science enthusiast.
+Developed by **Nada Ammar** – passionate football player & data science enthusiast.
