@@ -33,7 +33,7 @@ The goal is to give **clear, accessible insights** into team and player performa
 * **xG Prediction Model**
 
  -Gradient Boosting algorithm trained on historical match events.
-- Predicts **goal probability** for each shot attempt.
+ - Predicts **goal probability** for each shot attempt.
 
   <img src="screenshots/xg.PNG" alt="competition" width="700"/>
 
