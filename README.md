@@ -2,7 +2,7 @@
 
 
 
-## 🎯 Project Description
+## Project Description
 
 This project is the **second stage** of my Women’s World Cup 2019 analysis.
 After building the **Google Colab-based visual analysis**, I developed a **Streamlit dashboard** and added an **Expected Goals (xG) prediction model**.
@@ -12,13 +12,13 @@ The goal is to give **clear, accessible insights** into team and player performa
 📊 **Data Source:** [StatsBomb Open Data](https://statsbomb.com/)
 
 
-## 🛠 Features
+## Features
 
 ** Dashboard Pages**
 
-* 🏆 **Home**
+ **Home**
   
-* 🏆 **Competition Overview** – General tournament stats.
+ **Competition Overview** – General tournament stats.
   
   <img src="screenshots/competition.PNG" alt="competition" width="700"/>
   
@@ -30,16 +30,16 @@ The goal is to give **clear, accessible insights** into team and player performa
   
   <img src="screenshots/player.PNG" alt="competition" width="700"/>
   
-**🤖 xG Prediction Model**
+* **xG Prediction Model**
 
-* Gradient Boosting algorithm trained on historical match events.
-* Predicts **goal probability** for each shot attempt.
+ -Gradient Boosting algorithm trained on historical match events.
+- Predicts **goal probability** for each shot attempt.
 
   <img src="screenshots/xg.PNG" alt="competition" width="700"/>
 
 
 
-## 📚 Libraries Used
+## Libraries Used
 
 * `streamlit` – For the dashboard.
 * `pandas`, `numpy` – Data manipulation.
@@ -47,7 +47,7 @@ The goal is to give **clear, accessible insights** into team and player performa
 * `scikit-learn` – Machine learning model training.
 
 
-## ⚙️ Execution
+## Installation & Execution
 
 **1 Clone the project**
 
@@ -56,11 +56,19 @@ git clone https://github.com/nadammar/WomensWC2019_Dashboard.git
 cd WomensWC2019_Dashboard
 ```
 
-**2 Run the app on a specific port** (example: 8501)
+### 2 Install dependencies
 
 ```bash
-streamlit run main_app.py --server.port 8501
+pip install -r requirements.txt
 ```
+
+
+## 3 Running the App
+
+```bash
+streamlit run main_app.py 
+```
+
 
 
 
@@ -72,4 +80,5 @@ streamlit run main_app.py --server.port 8501
 
 ## 👨‍💻 Author
 
-Developed by **Nada Ammar** – passionate football player & data science enthusiast.
+Developed by **Nada Ammar** , passionate football player & data science enthusiast.
+
