@@ -14,7 +14,7 @@ The goal is to give **clear, accessible insights** into team and player performa
 
 ## Features
 
-** Dashboard Pages**
+**Dashboard Pages**
 
  **Home**
   
