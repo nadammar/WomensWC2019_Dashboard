@@ -16,9 +16,9 @@ The goal is to give **clear, accessible insights** into team and player performa
 
 **Dashboard Pages**
 
- **Home**
+ * **Home**
   
- **Competition Overview** – General tournament stats.
+ * **Competition Overview** – General tournament stats.
   
   <img src="screenshots/competition.PNG" alt="competition" width="700"/>
   
@@ -43,8 +43,9 @@ The goal is to give **clear, accessible insights** into team and player performa
 
 * `streamlit` – For the dashboard.
 * `pandas`, `numpy` – Data manipulation.
-* `matplotlib`, `seaborn` – Data visualization.
-* `scikit-learn` – Machine learning model training.
+* `matplotlib` – Data visualization.
+* `sklearn` – Machine learning model training.
+* `joblib`– for model persistence
 
 
 ## Installation & Execution
@@ -72,7 +73,7 @@ streamlit run main_app.py
 
 
 
-## 🎥 Video Demo
+## Video Demo
 
 📌 Full dashboard walkthrough available on **LinkedIn** → \[Video Link]
 
@@ -81,4 +82,5 @@ streamlit run main_app.py
 ## 👨‍💻 Author
 
 Developed by **Nada Ammar** , passionate football player & data science enthusiast.
+
 
