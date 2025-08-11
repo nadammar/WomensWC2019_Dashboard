@@ -17,24 +17,31 @@ The goal is to give **clear, accessible insights** into team and player performa
 ** Dashboard Pages**
 
 * 🏆 **Home**
+  
 * 🏆 **Competition Overview** – General tournament stats.
+  
   <img src="screenshots/competition.PNG" alt="competition" width="700"/>
+  
 * 📋 **Match-Level Analysis** – Key stats from each match.
+
   <img src="screenshots/match.PNG" alt="competition" width="700"/>
+  
 * 👤 **Player Performance** – Passing, shooting, possession metrics.
+  
   <img src="screenshots/player.PNG" alt="competition" width="700"/>
+  
 **🤖 xG Prediction Model**
 
 * Gradient Boosting algorithm trained on historical match events.
 * Predicts **goal probability** for each shot attempt.
 
-  <img src="screenshots/prediction.PNG" alt="competition" width="700"/>
+  <img src="screenshots/xg.PNG" alt="competition" width="700"/>
 
 
 
 ## 📚 Libraries Used
 
-* `streamlit` – For the interactive dashboard.
+* `streamlit` – For the dashboard.
 * `pandas`, `numpy` – Data manipulation.
 * `matplotlib`, `seaborn` – Data visualization.
 * `scikit-learn` – Machine learning model training.
@@ -45,8 +52,8 @@ The goal is to give **clear, accessible insights** into team and player performa
 **1 Clone the project**
 
 ```bash
-git clone https://github.com/nadammar/WomensWC2019-Dashboard.git
-cd WomensWC2019-Dashboard
+git clone https://github.com/nadammar/WomensWC2019_Dashboard.git
+cd WomensWC2019_Dashboard
 ```
 
 **2 Run the app on a specific port** (example: 8501)
