@@ -75,7 +75,7 @@ streamlit run main_app.py
 
 ## Video Demo
 
-📌 Full dashboard walkthrough available on **LinkedIn** → \[Video Link]
+📌 Full dashboard walkthrough available on **LinkedIn** → \[(https://www.linkedin.com/posts/nada-ammar-465556207_footballanalytics-machinelearning-sportstech-activity-7360988258387877888-K6uD?utm_source=share&utm_medium=member_desktop&rcm=ACoAADSVrA0B9YGC7IJFPGEKGSwo0T9h5GBarvE)]
 
 
 
